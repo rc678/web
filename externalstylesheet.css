@@ -1,0 +1,100 @@
+﻿body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+padding: 0px;
+margin: 0px;
+font-size: 100%;
+font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  width:100%;
+  height:100%;
+}
+ 
+nav ol {
+  list-style-type:normal;
+  background-color: #444;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+  float:none;
+ 
+}
+nav li {
+  font-family:'Oswald', "sans-serif";
+  font-size: medium;
+  line-height: 30px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+ 
+nav a {
+  text-decoration: none;
+  color: cadetblue;
+  display:block;
+  transition: background-color;
+}
+ 
+nav a:hover {
+  background-color: lightcyan;
+}
+ 
+nav a.active {
+  background-color:bisque;
+  color: black;
+  cursor: default;
+}
+
+nav li {
+    float:inherit;
+}
+      
+ p{
+ font-family:sans-serif;
+ color:black;
+ }
+ 
+ h1{
+ color:tomato;
+
+ }
+ 
+ header{
+ clear:both;
+ }
+ 
+ main{
+ padding:inherit;
+ }
+ 
+  
+img{
+ float:left;
+ padding:10px;
+ margin:10px;
+	
+}
+p.letter:first-letter{
+ font-size:x-large;
+ color:magenta;
+}
+
+
+video{
+top:auto;
+left:auto;
+position:absolute;
+width:50%;
+height:50%;	
+}
+
+a{
+ color:darkgreen;	
+ }
+ 
+ h2{
+ font-style:italic;	
+}
+
